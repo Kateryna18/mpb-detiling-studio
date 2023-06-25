@@ -1,0 +1,17 @@
+.hero {
+    background-image: url("https://ulight.ru/uploads/images/storage/original/e3af04dec421cdd5a554a621ce4c2bf2.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    opacity: 0.6;
+    min-height: 100vh;
+}
+
+.hero .hero__container {
+    display: flex;
+    align-items: center;
+}
+
+.hero__content {
+    display: block;
+}
