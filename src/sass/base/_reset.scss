@@ -27,3 +27,7 @@ a {
 input:focus-visible {
     outline: none;
 }
+
+:focus, :active, :visited {
+    outline: none;
+}

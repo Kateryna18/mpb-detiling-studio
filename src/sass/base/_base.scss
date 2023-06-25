@@ -1,6 +1,10 @@
 body {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
+    font-size: 14px;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+
     background-color: $global-color;
     color: $global-text-color;
 }
