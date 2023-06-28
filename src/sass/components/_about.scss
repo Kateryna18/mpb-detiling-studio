@@ -2,8 +2,10 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.about__container {
+.about .about__container {
+    outline: 5px solid tomato;
     display: flex;
+    gap: 20px;
 }
 // .about__features-list {
 // }
@@ -25,5 +27,9 @@
 // .about_button {
 // }
 .about__img-box {
-    min-width: 0;
+    min-width: 50%;
+}
+
+.about__img-box img{
+    margin-bottom: 20px;
 }
