@@ -1,0 +1,2 @@
+new Swiper(".swiper",{slidesPerView:2,spaceBetween:10,centeredSlides:!0,effect:"coverflow",autoHeight:!0,slideToClickedSlide:!0,loop:!0,speed:800,lazyPreloadPrevNext:1,watchSlidesProgress:!0,watchSlidesVisibility:!0,autoplay:{delay:3e3,disableOnInteraction:!1},keyboard:{enabled:!0,onlyInViewport:!0},pagination:{el:".swiper-pagination",clickable:!0,dynamicBullets:!0}});
+//# sourceMappingURL=index.73f8b951.js.map
