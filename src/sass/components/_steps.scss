@@ -1,0 +1,52 @@
+.steps {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background-image: url("https://cs306412.userapi.com/v306412912/2145/e2vCNGpULLo.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    opacity: 0.6;
+}
+.steps__container {
+}
+.steps__tittle {
+    text-align: center;
+}
+.steps__subtittle {
+    display: block;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.steps__list {
+    display: flex;
+}
+.steps__list__item {
+    width: 290px;
+}
+.steps__container__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 138px;
+    height: 138px;
+
+    border-color: rgba(226,230,231,0.29803921568627);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 999px;
+    margin-bottom: 30px;
+}
+.steps__list__icon {
+    fill: $accent-color;
+}
+.steps__list__text {
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1.4em;
+    text-align: center;
+
+
+}
