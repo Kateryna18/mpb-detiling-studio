@@ -2,16 +2,31 @@
     padding-top: 50px;
     padding-bottom: 50px;
 
-    background-image: url("https://cs306412.userapi.com/v306412912/2145/e2vCNGpULLo.jpg");
+    // background-image: url("https://www.autocentre.ua/wp-content/uploads/2020/06/bmw-m3-evo-ii-2.jpg");
+    background-image: url("https://w-dog.ru/wallpapers/1/2/497157685691464/bmw-e38-bumer-bmv-chernyj.jpg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+    background-attachment: fixed;
     opacity: 0.6;
 }
-.steps__container {
-}
+
 .steps__tittle {
+    position: relative;
     text-align: center;
+    margin-bottom: 10px;
+}
+.steps__tittle::after {
+    content: "";
+    display: inline-block;
+
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    top: 35px;
+    left: 46%;
+
+    background-color: $accent-color;
 }
 .steps__subtittle {
     display: block;
@@ -20,23 +35,40 @@
 }
 .steps__list {
     display: flex;
+    justify-content: center;
 }
 .steps__list__item {
+    position: relative;
     width: 290px;
 }
-.steps__container__icon {
+
+.steps__box1__icon {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 
     width: 138px;
     height: 138px;
 
-    border-color: rgba(226,230,231,0.29803921568627);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 999px;
+    border: 1px solid #e2e6e74c;
+    border-radius: 50%;
     margin-bottom: 30px;
+}
+.steps__box2__icon {
+    position: absolute;
+    top: 32px;
+    right: -22px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 4px;
+
+    border: 1px solid #e2e6e74c;
+    border-radius: 50%;
 }
 .steps__list__icon {
     fill: $accent-color;
@@ -47,6 +79,4 @@
     font-weight: 400px;
     line-height: 1.4em;
     text-align: center;
-
-
-}
+} 
