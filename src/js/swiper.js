@@ -3,7 +3,7 @@ new Swiper('.swiper', {
     spaceBetween: 10,
     centeredSlides: true,
     effect: 'coverflow',
-    autoHeight: true,
+    // autoHeight: true,
     // при зміні розмру екрану - відключити
     // coverflowEffect: {
     //     rotate: 20,

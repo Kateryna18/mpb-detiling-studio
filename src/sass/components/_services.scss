@@ -1,0 +1,42 @@
+.services {
+    padding-top: 100px;
+}
+.services__container {
+}
+.services__tittle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.services__tittle::before {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 100px;
+    margin-right: 15px;
+    background-color: $accent-color;
+    vertical-align: middle;
+}
+.services__list {
+}
+.services__list-item {
+    margin-bottom: 20px;
+}
+.services__box {
+    background-image: url("https://h2o-auto.pro/upload/resize_cache/webp/3b5ce4da189757a26b74f02e28082f3258cac3f0df77260b41611c22a4fb864c/995194ee1d5a115f236fa48bb33348a8.webp");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    opacity: 0.6;
+}
+.services__box-img {
+}
+.services__box-icon {
+}
+.services__box-subtittle {
+}
+.services__box-description {
+}
+.services__box-link {
+}
+.services__link {
+}
