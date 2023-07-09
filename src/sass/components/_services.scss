@@ -17,26 +17,98 @@
     vertical-align: middle;
 }
 .services__list {
+    margin-bottom: 40px;
 }
 .services__list-item {
     margin-bottom: 20px;
 }
 .services__box {
-    background-image: url("https://h2o-auto.pro/upload/resize_cache/webp/3b5ce4da189757a26b74f02e28082f3258cac3f0df77260b41611c22a4fb864c/995194ee1d5a115f236fa48bb33348a8.webp");
+    position: relative;
+    overflow: hidden;
+    padding: 50px 50px 30px 50px;
+    background-image: linear-gradient(290deg, #FFFFFF00 0%, #000000 100%), url("https://h2o-auto.pro/upload/resize_cache/webp/3b5ce4da189757a26b74f02e28082f3258cac3f0df77260b41611c22a4fb864c/995194ee1d5a115f236fa48bb33348a8.webp");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    opacity: 0.6;
 }
-.services__box-img {
+.services__box--himchustka {
+    background-image: linear-gradient(290deg, #FFFFFF00 0%, #000000 100%), url("https://h2o-auto.pro/upload/resize_cache/webp/3b5ce4da189757a26b74f02e28082f3258cac3f0df77260b41611c22a4fb864c/995194ee1d5a115f236fa48bb33348a8.webp");
+}
+.services__box--polishing {
+    background-image: linear-gradient(290deg, #FFFFFF00 0%, #000000 100%), url("https://www.brocar.kiev.ua/wp-content/uploads/2018/11/polirova2.jpg");
+}
+.services__box--plivka {
+    background-image: linear-gradient(290deg, #FFFFFF00 0%, #000000 100%), url("https://i.ytimg.com/vi/HDU9C2lSMwo/maxresdefault.jpg");
+}
+
+.services__box-content {
+    width: 60%;
 }
 .services__box-icon {
+    margin-bottom: 16px;
+    fill: $accent-color;
 }
 .services__box-subtittle {
+    margin-bottom: 16px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase;
 }
 .services__box-description {
+    margin-bottom: 22px;
+    font-family: $second-font-family;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4em;
 }
 .services__box-link {
+    display: flex;
+    align-items: center;
+    color: $accent-color;
+    font-size: 16px;
+    text-transform: uppercase;
 }
+.services__box-link-icon {
+    margin-left: 3px;
+    fill: $accent-color;
+}
+
 .services__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: inherit;
 }
+.services__box-link-icon--white {
+    margin-left: 3px;
+    fill: $global-text-color;
+}
+.services__card-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    transform: translatex(-101%);
+
+    padding: 70px 50px 30px 50px;
+    background-color: $accent-color-blue;
+    background-image: linear-gradient(290deg, #FFFFFF00 0%, #000000 100%);
+
+    transition: transform 650ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .services__box:hover &{
+        transform: translateY(0%);
+    }
+}
+
+
+
+
+  
+
+  
