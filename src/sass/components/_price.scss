@@ -90,6 +90,7 @@
     line-height: 22.4px;
 }
 .calculator__box-services {
+    margin-bottom: 30px;
 }
 .calculator__list-services {
     display: flex;
@@ -109,19 +110,45 @@
     border-radius: 10px;
 }
 .calculator__button-services {
-    
-}
-.calculator__icon-services {
     position: absolute;
+    height: 100%;
     top: 50%;
     left: 0;
     transform: translate(0, -50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
     margin-left: 12px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.calculator__icon-services {
     fill: $global-text-color;
 }
 .calculator__box-price {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 7px;
+    margin-bottom: 25px;
 }
 .calculator__price-total {
+    text-align: center;
+    width: 30%;
+    padding: 17px;
+    font-size: 18px;
+    line-height: 1.2em;
+    background-color: #2c506ac7;
+    border: 1px solid $accent-color-blue;
+    border-radius: 10px;
 }
 .calculator__price-button {
+    border-radius: 10px;
+}
+.calculator__text-warning {
+    display: block;
+    text-align: center;
 }
