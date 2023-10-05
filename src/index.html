@@ -485,24 +485,29 @@
     </section>
     <section class="feedback">
       <div class="feedback__container">
-        <p class="feedback__subtitle subtitle">Залишились питання?</p>
-        <p class="feedback__description description">
+        <div class="feedback__info-box">
+          <p class="feedback__subtitle subtitle">Залишились питання?</p>
+          <p class="feedback__description description">
           Залиш свої контактні дані та запитання і наш менеджер найближчим
-          часом зв'яжеться з Вами
+          часом зв'яжеться з Вами.
         </p>
+        </div>
         <form class="feedback__form">
-          <label>
-            Ім'я
-            <input class="feedback__field"/>
-          </label>
-          <label>
-            Номер телефону
-            <input class="feedback__field"/>
-          </label>
-          <label>
+          <div class="feedback__fields-box">
+            <label>
+              Ім'я
+              <input class="feedback__field"/>
+            </label>
+            <label>
+              Номер телефону
+              <input class="feedback__field"/>
+            </label>
+          </div>
+          <label for="field-textarea">
             Запитання
-            <input class="feedback__field"/>
           </label>
+          <textarea class="feedback__field textarea" rows="3" name="feedback" id="field-textarea"></textarea>
+          <button type="submit" class="button feedback__button">Відправити</button>
         </form>
       </div>
     </section>
