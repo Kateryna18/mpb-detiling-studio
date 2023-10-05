@@ -1,33 +1,28 @@
 .header {
-    position: fixed;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
 }
-
 .header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .header .header__container {
-    padding-top: 20px;
+    padding-top: 25px;
 }
-
-.logo {
-    padding: 15px;
-    display: block;
-}
-
+// .logo {
+// }
 .nav__box {
-    border-color: azure;
     display: flex;
     gap: 25px;
 }
-
 .nav__list {
     display: flex;
     gap: 15px;
 }
-
 .nav__link {
     padding: 15px;
     display: block;
@@ -38,21 +33,16 @@
 .nav__link:hover, .nav__link:focus {
     color: $accent-color;
 }
-
-// .nav__item {
-// }
-
 // .nav__button {
 // }
-
+// .button {
+// }
 .gecor-figure {
     position: absolute;
     top: 0;
     right: 0;
     z-index: -1;
-    margin-left: auto;
-    width: 62.5%;
-    height: 100px;
-    border-bottom: 100px solid rgb(191, 218, 216);
+    width: 63%;
+    border-bottom: 100px solid $global-color;
     border-left: 30px solid transparent;
 }
