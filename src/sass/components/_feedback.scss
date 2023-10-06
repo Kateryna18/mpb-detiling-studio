@@ -6,10 +6,10 @@
 .feedback__container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 .feedback__info-box {
-    width: 45%;
+    width: 40%;
 }
 .feedback__subtitle {
     margin-bottom: 15px;
@@ -22,37 +22,44 @@
 .description {
 }
 .feedback__form {
+    flex-grow: 1;
 }
 .feedback__fields-box {
     display: flex;
-    gap: 20px;
-    margin-bottom: 10px;
+    align-items: flex-end;
+    margin-bottom: 20px;
 }
 .feedback__field {
     display: block;
     height: 35px;
-    padding: 5px;
+    padding: 5px 5px 5px 10px;
     margin-top: 7px;
     border: 1px solid white;
     border-radius: 5px;
     background-color: transparent;
 }
-.textarea {
-    width: 100%;
-    height: auto;
-    margin-left: 0;
-    margin-bottom: 10px;
-}
-.button.feedback__button {
+.field-textarea {
     display: block;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 3px;
-    background-color: #212121d7;
-    color: #aaa5a5;
+    margin-left: 20px;
+    margin-right: 9px;
+}
+.textarea {
+    width: 100%;
+}
+.button.feedback__button {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #212121;
+    color: #e4e1e1;
+    transition: all .4s ease;
 }
 .button.feedback__button:hover, .button.feedback__button:focus {
-    background-color: $global-color;
+    background-color: $accent-color-blue;
     color: $global-text-color;
+}
+.feedback__icon {
+    fill: $global-text-color;
 }

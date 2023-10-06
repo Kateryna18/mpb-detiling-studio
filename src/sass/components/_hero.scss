@@ -1,25 +1,25 @@
 .hero {
+    position: relative;
     background-image: url("https://ulight.ru/uploads/images/storage/original/e3af04dec421cdd5a554a621ce4c2bf2.jpeg");
     // background-image: url("https://fotki.ucoz.ua/_ph/11/274039521.jpg?1686284404");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    opacity: 0.6;
-    // min-height: 100vh;
 }
-// .hero::after {
-//     content: "";
-//     position: absolute;
-//     left: 0;
-//     right: 0;
-//     bottom: 0;
-//     top: 0;
-//     background: rgba(33, 33, 33, 0.65);
-//     z-index: -1;
-// }
+.hero::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(33, 33, 33, 0.65);
+    z-index: 1;
+}
 
 .hero .hero__container {
-    // outline: 5px solid tomato;
+    position: relative;
+    z-index: 5;
     display: flex;
     align-items: center;
     justify-content: flex-end;

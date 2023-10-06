@@ -1,4 +1,5 @@
 .steps {
+    position: relative;
     padding-top: 50px;
     padding-bottom: 50px;
 
@@ -8,7 +9,20 @@
     background-position: 50% 50%;
     background-size: cover;
     background-attachment: fixed;
-    opacity: 0.6;
+}
+.steps::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(33, 33, 33, 0.489);
+    z-index: 1;
+}
+.steps__container {
+    position: relative;
+    z-index: 5;
 }
 
 .steps__tittle {

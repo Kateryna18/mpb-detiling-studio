@@ -484,31 +484,36 @@
         </div>
       </div>
     </section>
+    <!-- ----------------------------FEEDBACK------------------------ -->
     <section class="feedback">
       <div class="feedback__container">
         <div class="feedback__info-box">
-          <p class="feedback__subtitle subtitle">Залишились питання?</p>
+          <p class="feedback__subtitle subtitle">Залишилось питання?</p>
           <p class="feedback__description description">
-          Залиш свої контактні дані та запитання і наш менеджер найближчим
-          часом зв'яжеться з Вами.
+          Задай його і наш менеджер найближчим
+          часом дасть відповідь.
         </p>
         </div>
         <form class="feedback__form">
           <div class="feedback__fields-box">
-            <label>
+            <!-- <label>
               Ім'я
               <input class="feedback__field"/>
-            </label>
+            </label> -->
             <label>
               Номер телефону
               <input class="feedback__field"/>
             </label>
+            <label for="field-textarea" class="field-textarea">
+              Запитання
+              <textarea class="feedback__field textarea" rows="2" name="feedback" id="field-textarea"></textarea>
+            </label>
+            <button type="submit" class="button feedback__button">
+              <svg width="15" height="15" class="feedback__icon">
+                <use href="./images/svg/sprite.svg#paperplane"></use>
+              </svg>
+            </button>
           </div>
-          <label for="field-textarea">
-            Запитання
-          </label>
-          <textarea class="feedback__field textarea" rows="3" name="feedback" id="field-textarea"></textarea>
-          <button type="submit" class="button feedback__button">Відправити</button>
         </form>
       </div>
     </section>
@@ -520,6 +525,7 @@
         </div>
       </section>
   </main>
+  <!-- ----------------------------FOOTER------------------------ -->
   <footer class="footer">
   <div class="footer__container">
     <div>
